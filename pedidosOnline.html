@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Platzi Pizzeria</title>
+    <meta charset="UTF-8" />
+    <meta name="description"
+        content="Pizzaria Platzi. Sabores incomparáveis, ingredientes de Alta Qualidade e Compromisso de Entrega." />
+    <link href="ponline.css" rel="stylesheet" />
+</head>
+
+
+<body>
+    <!--Menu e Logo-->
+    <header>
+        <header>
+            <!--Menu Superior-->
+            <section>
+                <img class="logoSuperior" src="./img/imagens/logo_preta.svg" alt="Imagem" />
+            </section>
+            <nav>
+                <a href="./index.html" alt="HOME">Home</a>
+                <a href=""  alt="Cardápio">Cardápio</a>
+                <a href="./pedidosOnline.html" class="botao-cabecario"  alt="Peça Online">Peça online</a>
+            </nav>
+
+        </header>
+        <!--Fim Menu e Logo-->
+
+        <!--Formulário-->
+        <section id="formulario">
+            <form>
+                <label class = "sabordaPizza" for="sabor">Escolha o Sabor da sua Pizza</label>
+                <select name="Tamanho">
+                    <option value="1">Peperoni</option>
+                    <option value="2">Salame</option>
+                    <option value="3">Havaiana</option>
+                </select>            
+           
+                <label class="tamanhodaPizza" for="Tamanho">Escolha o Tamanho da sua Pizza</label>
+                <select name="Tamanho">
+                    <option value="1">Pequena</option>
+                    <option value="2">Média</option>
+                    <option value="3">Grande</option>
+                </select>
+            </form>
+
+            <form id="endereco">
+                <input class="endereco" type="text" placeholder="Insira seu endereço completo"></input>
+                <img src="./img/imagens/pinMapa.png" alt="Ícone Mapa" class="pin">
+                <p><strong>Unicamente para o Brasil !</strong> </p>
+            </form>
+
+        </section>
+        <!--Fim do Formulário-->
+
+        <!--Mapa-->
+        <section>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.4188634086527!2d-49.0603591854484!3d-26.921932600071997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df18ec971535b9%3A0x72cb3df5857c361e!2sApex%20Ensino!5e0!3m2!1spt-BR!2sbr!4v1589161049866!5m2!1spt-BR!2sbr"
+                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </section>
+        <!-- Fim do Mapa-->
+
+        <!--Botao Confirmar-->
+        <section id="botaoConfirmar">
+            <a href="" class="botao-logo"  alt="Peça Online">Confirmar</a>
+        </section>
+
+        <!-- Logo-->
+        <section id="logo-preta">
+            <img class="logomarca-preta" src="./img/imagens/logo_preta.svg" alt="Imagem" />
+        </section>
+        <!-- Fim da Logo-->
+
+        <!--Rodapé-->
+        <footer>
+            <section id="footerEsq">
+                <nav>
+                    <a href="" class="links"  alt="Status">Status</a>
+                    <a href="" class="links"  alt="Política de Privacidade">Política de Privacidade</a>
+                    <a href="" class="links"  alt="Contate-nos">Contate-nos</a>
+                </nav>
+            </section>
+
+            <section id="footer-direita">
+                <figure>
+                    <img src="./img/imagens/bandeira-brasil.svg" alt="Imagem" />
+                    <a href="https://www.instagram.com/" target="_blank"><img class="icones-social"
+                            src="./img/imagens/Instagram_1.svg" alt="Imagem" /></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img class="icones-social"
+                            src="./img/imagens/Facebook_1.svg" alt="Imagem" href=""></a>
+                    <a href="https://www.twitter.com/" target="_blank"><img class="icones-social"
+                            src="./img/imagens/Twitter_1.svg" alt="Imagem" href=""></a>
+                </figure>
+            </section>
+
+        </footer>
+</body>
+
+</html>

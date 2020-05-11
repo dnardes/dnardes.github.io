@@ -1,0 +1,408 @@
+@media only screen and (max-width: 600px ) {}
+    
+    /* o @font importa e carrega uma fonte para o CSS ou seja VINCULA UMA FONTE AO MEU PROJETO */
+   
+@font-face {
+    font-family: "Aileron Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontesSite/aileron-regular.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontesSite/aileron-italic.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron Thin";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontesSite/Aileron-Thin.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron UltraLight";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontesSite/Aileron-UltraLight.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron ThinItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontesSite/aileron-thinitalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron UltraLightItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontesSite/aileron-ultralightitalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron Light";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontesSite/aileron-light.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron LightItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontesSite/aileron-lightitalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron SemiBold";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontesSite/Aileron-SemiBold.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron SemiBoldItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontesSite/Aileron-SemiBoldItalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontesSite/aileron-bold.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron BoldItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontesSite/aileron-bolditalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron Black";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontesSite/aileron-black.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron Heavy";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontesSite/aileron-heavy.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron BlackItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontesSite/aileron-blackitalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: "Aileron HeavyItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local(Aileron), url('fontesSite/aileron-heavyitalic.otf') format('woff');
+}
+
+* {
+    font-family: Aileron Regular;
+}
+
+    body {
+        background-color: white;
+        margin: 0;
+        padding: 10px;
+        
+    }
+
+    h1 {
+        font-weight: 100;
+        font-size: larger;
+        color: black;
+        
+    }
+
+    /*TA DEFININDO O MEU PLANO DE FUNDO*/
+    .home {
+        background-image: url("./img/imagens/fundo.png");
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 100%;
+    }
+    /*Fim do Plano de Fundo*/
+
+    header {
+        margin-top: 25px;
+        height: 80px;
+    }
+
+    header > nav {
+        float: right;
+        font-family: "Airelon Regular";
+        font-size: 21px;
+
+    }
+
+    header > nav > a {
+        text-decoration: none;
+        color: white;
+        padding: 1px 5px;
+        margin-right: 15px;
+    
+    }
+
+    header>nav>a:hover:after {
+        width: 49.3px;
+        height: 0;
+        border: solid 3px #aa2a2a;
+    }
+    .botao-logo:hover{
+        border-bottom: 3px solid #4a90e2;
+        
+    }
+    section#logo {
+        height: 550px;
+        line-height: 5;
+        text-align: center;   
+        
+
+        }
+
+    .links {
+        text-decoration: none;
+        color:black;
+    }
+   
+
+    .botao-logo{
+        background: #4a90e2;
+        border-radius: 5px;
+        width: 210px;
+        height: 57px;
+        color: #ffffff;
+        display: inline-block;
+        font: normal normal 18px/55px "Aileron Bold", sans-serif;
+        text-align:center;
+        text-decoration: none;
+    }
+    
+
+    section {
+        text-align: center;
+    }
+
+    .logoMarca {
+        width: 30%;
+    }
+
+    section > figure {
+        float: left;
+    }
+
+    .textoBaixoLogo{
+        width: 665px;
+        height: 109px;
+        font-family: "Aileron SemiBold";
+        font-size: 18px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.89;
+        letter-spacing: normal;
+        text-align: center;
+        color: white;
+        margin: auto;
+    }
+
+    section#diferenciais {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-content: center;
+        align-self: center;
+        justify-content: center;
+        margin-top: 2px;
+       
+        
+
+        
+    }
+    
+    .tituloDiferenciais {
+        color: #4A90E2;
+        font-size: 18px;
+    }
+    
+    .depoimentoQuadrado {
+        width: 100%;
+        height: 600px; 
+        background-color: #4A90E2;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+
+    #depoimento-texto {
+        text-align: left;
+        height: 300px;
+        width: 580px;
+        
+    }
+
+
+    .nosso-compromisso {
+        height: auto;
+        font-family: "Aileron Bold";
+        font-size: 34px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.35;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+       
+    }
+
+    .texto-depoimento {
+        width: 421px;
+        height: 180px;
+        font-family: "Aileron LightItalic";
+        font-size: 28px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.71;
+        letter-spacing: normal;
+        text-align: left;
+        color: #182c3f;
+    }
+   
+    .nome-pessoa {
+        width: 200px;
+        height: auto;
+        font-family: "Aileron Bold";
+        font-size: 21px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+
+    }
+    
+    .profissao {
+        height: 20px;
+        font-family: "Aileron Regular";
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.89;
+        letter-spacing: normal;
+        text-align: left;
+        color: #182c3f;
+        
+    }
+
+    .barra-depoimento{
+        float: left;
+        border-radius: 8px;
+    }
+
+    #depoimento-foto > .foto-depoimento {
+        width: 300px;
+        height: 384px;
+        border-radius: 3px;
+                 
+    }
+
+    .logomarca-preta{
+        width: 329.7px;
+        height: 206.9px;
+    }
+
+    #logo-preta{
+        margin-top: 50px;    
+        margin-right: center;
+        margin-bottom: 65px;
+        margin-left: center;
+    }
+    
+    footer {
+        font-family: "Aileron Bold";
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.21;
+        letter-spacing: normal;
+        color: #54565A;
+        display: flex;
+        align-items: center;
+        height: 100px;
+        width: 100%;    
+        background-color: #EFF2F3;
+    }
+
+    footer>section>a{
+        color: #54565A;
+    }
+
+    section#footer-direita>a {
+        padding: 1px 5px;
+        margin-right: 2px;
+    }
+
+    section#footer-direita {
+        float: right;
+        margin: 60px 50px 40px auto;
+       
+    }
+
+    section#footerEsq {
+        float: left;    
+        margin: 60px auto 40px 50px;
+       
+    }
+
+    .figureTamanho {
+        background-color: white;
+        box-align: center;
+        margin-top: 15px;
+        border-radius: 10px;
+        height: 370px;
+        width: 411px;           
+        
+
+    }
+
+    .foto-depoimento{
+        width: 456.49px;
+        height: 540.42px;
+        border-radius: 3px;
+    }
+
+   .icones-social{
+    width:45px;
+    height:45px;
+}
+
+a:hover {
+    border-bottom: 2px solid #4A90E2;
+}
