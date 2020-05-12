@@ -282,37 +282,27 @@ section#botaoConfirmar > a{
 .botao-cabecario:hover{
     border-bottom: 3px solid white;
 }
-
-section#formulario{
-    margin-top: 30px;
-    margin-left: 150px;
-    
+#formulario{
+    display: flex;
+    justify-content: center;
+    padding: 50px 10px;
+    background: #7159c1;
+}
+#formulario form{
+    max-width: 720px;
+    min-width: 500px;
+}
+.formulario-item{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+    padding: 5px 0;
 }
 
-
-.sabordaPizza {
-    margin-left: 25px;
-
-}
-
-.tamanhodaPizza {
-    margin-left: 175px;
-
-}
-
-select {
-    margin-left: 50px;
-    width: 150px;
-
-}
 
 form#endereco {
     margin-top: 90px;
     margin-left: 25px;
-}
-
-.endereco {
-    width: 338px;
 }
 
 .pin {
